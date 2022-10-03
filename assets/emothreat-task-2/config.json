@@ -1,0 +1,15 @@
+{    
+    "emothreat-task-2": {
+        "2022": {
+            "test_size": 0.0,
+            "datasetClass": "DatasetEmoThreatTask2",
+            "language": "ur",
+            "scoring": "val_f1_score",
+            "f1_score_scheme": "macro",
+            "tasks": {
+                "task-1": {"label": "label"},
+                "task-2": {"label": "target"}
+            }
+        }
+    }
+}

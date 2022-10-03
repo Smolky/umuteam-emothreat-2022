@@ -1,0 +1,13 @@
+{    
+    "emothreat": {
+        "2022": {
+            "test_size": 0.0,
+            "datasetClass": "DatasetEmoThreat",
+            "language": "ur",
+            "type": "multi_label",
+            "scoring": "val_f1_score",
+            "f1_score_scheme": "macro"
+
+        }
+    }
+}
